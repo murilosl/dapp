@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting DApp</title>
+</head>
+<body>
+    <h1>Consulting DApp</h1>
+    <div>
+        <h2>Request Consultation</h2>
+        <input type="text" id="description" placeholder="Description">
+        <button onclick="requestConsultation()">Request</button>
+    </div>
+    <div>
+        <h2>Complete Consultation</h2>
+        <input type="number" id="consultationId" placeholder="Consultation ID">
+        <button onclick="completeConsultation()">Complete</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
